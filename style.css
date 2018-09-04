@@ -3,11 +3,26 @@ body, html{
     background-color: lightblue;
 }
 
+.content{
+    margin: auto;
+}
+
+.page-body{
+    margin: 4%;
+    padding: 5%;
+}
+
 #banner, .menu {
     background-color: teal;
     margin: 0%;
     padding: 1% 2%;
     text-align: center;
+    width: 100%;
+}
+
+.menu{
+    border-bottom: solid #3B5998 2px;
+    box-shadow: 0px 8px 8px 0px rgba(0,0,0,0.5);
 }
 
 
@@ -26,15 +41,6 @@ body, html{
 .menu ul li :hover {
     text-decoration: underline;
 }
-#headerLine{
-    height: 12px;
-    border: 0;
-    box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 1);
-    margin: 0;
-}
-
-
-
 #name {
     float: center;
     text-align: center;
@@ -43,11 +49,10 @@ body, html{
     font-size: 30px;
 }
 
-.paragraphs, .mail {
+.paragraphs{
     width: 300px;
     border: 5px solid teal;
     padding: 5%;
-    margin: 1%;
     float: right;
     background-color: rgba(3, 156, 156, 0.459);
     opacity: 50;
@@ -55,11 +60,14 @@ body, html{
     text-align: justify;
     font-family: 'FontTwo';
     box-shadow: inset 12px 12px 12px -10px rgba(1, 1, 1, 1);
+    position: relative;
+    margin-right: 10%;
+    margin-top: 5%;
 }
 
 @font-face {
     font-family: 'FontOne'; /*a name to be used later*/
-    src: url('fonts/amperzand/Amperzand.ttf'); /*URL to font*/
+    src: url('fonts/kaushan-script/KaushanScript-Regular.otf'); /*URL to font*/
 }
 @font-face {
     font-family: 'FontTwo'; /*a name to be used later*/
@@ -71,11 +79,16 @@ body, html{
     src: url('fonts/josefin-sans/JosefinSans-Bold.ttf'); /*URL to font*/
 }
  .footer {
-     background-color: teal;
-     margin-top: 500px;
-     margin-bottom: 0;
-     padding: 2%;
-     text-align: center;
+    background-color: teal;
+    border-top: solid #3B5998 2px;
+    position: initial;
+    width: 100%;
+    text-align: center;
+    z-index: 10;
+    bottom: 0;
+    padding: 2% 2%;
+    box-shadow: 8px 8px 8px 10px rgba(0, 0 ,0 , 1);
+    margin-top: 650px;
 
  }
 
@@ -173,18 +186,33 @@ hr.divide {
 }
 
 .row-left{
-    padding: 5% 10%;
+    width: 300px;
+    padding: 5%;
     float: left;
-    text-align: left;
+    font-size: 18px;
+    text-align: justify;
+    font-family: 'FontTwo';
+    position: relative;
+    margin-left: 10%;
+    margin-bottom: 5%;
 }
 
 #profile-picture{
     border: teal solid 10px;;
     border-radius: 100%;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,1);
+    float: left;
+    width: 300px;
+    margin-bottom: 5%;
+    margin-left: 10%;
 }
 .CreatedBy{
     font-style: italic;
     font-size: 10px;
     text-align: center;
+}
+
+img{
+    width: 100%;
+    height: auto;
 }
