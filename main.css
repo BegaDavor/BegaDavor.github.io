@@ -1,0 +1,201 @@
+html, body {
+    width: 100%;
+    margin: 0;
+    background-color: darkgoldenrod;
+}
+
+h1, h2, h3 {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(189, 44, 0);
+}
+
+
+header{
+    background-color: rgb(255, 166, 0);
+    margin: 0;
+    top: 0;
+    padding: 2% 2%;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    z-index: 10;
+    border-bottom: solid orangered 2px;
+    box-shadow: 0px 8px 8px 0px rgba(0,0,0,0.5);
+    transition: transform 0.25s ease-in-out;
+}
+footer {
+    background-color: rgb(255, 166, 0);
+    border-top: solid orangered 2px;
+    position: initial;
+    width: 100%;
+    text-align: center;
+    z-index: 10;
+    bottom: 0;
+    padding: 2% 2%;
+    box-shadow: 8px 8px 8px 10px rgba(0, 0 ,0 , 1);
+}
+
+header h1 {
+    float: left;
+    text-shadow: black 3px;
+}
+
+header h1 a {
+    text-decoration: none;
+    color: orangered;
+}
+header nav.navigation ul{
+
+    list-style: none;
+    float: right;
+    margin-right: 50px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+header nav.navigation a {
+    text-decoration: none;
+    color: orangered;
+    text-align: justify;
+    margin: 5px;
+}
+
+
+#about {
+    position: relative;
+    background-color: darkkhaki;
+    padding: 4%;
+    text-align: center;
+}
+
+#projects {
+    position: relative;
+    background-color: rgb(158, 154, 93);
+    padding: 4%;
+}
+
+#contacts {
+    position: static;
+    background-color: rgb(117, 115, 66);
+    padding: 4%;
+}
+.page-body{
+    margin: 4%;
+    padding: 5%;
+}
+
+p {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: justify;
+}
+
+.dropdown {
+    padding: 3%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.listOfProjects a {
+    text-decoration: none;
+    color: black;
+}
+
+.listOfProjects li :hover {
+    text-decoration: underline;
+}
+hr.divide-section {
+   height: 12px;
+    border: 0;
+    box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 1);
+    margin: 0;
+}
+.profile-photo{
+    border: transparent orangered 8px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,1);
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    float: center;
+}
+
+.icons li a {
+
+    text-decoration: none;
+    color: aliceblue;
+     
+ }
+
+ .icons li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 1%;
+ }
+
+ .fa {
+    padding: 25px;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: url(img/Facebook-icon-1.png);
+    background-size: cover;
+    background-color: white;
+}
+
+.fa-instagram {
+    background: url(img/instagram.png);
+    background-size: cover;
+    background-color: white;
+    
+}
+
+.fa-github {
+    background: url(img/github.svg);
+    background-size: cover;
+    background-color: white;
+    
+}
+img{
+    width: 100%;
+    height: auto;
+}
+
+.icon-bar {
+    position: fixed;
+    top: 60%;
+    left: 0;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    text-align: left;
+  }
+  .social-icons {
+    text-align: center;
+    }  
+  .social-icons li {
+    display:inline-block;
+    list-style-type:none;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    }
+  .social-icons li a {
+    border-bottom: none;
+    }
+  .social-icons li img {
+    width:70px;
+    height:70px;
+    margin-right: 20px;
+  }
+  .header-unpin{
+    /* display: none; */
+    transform: translateY(-100px);
+  }
+  .header-pin{
+    /* display: block; */
+    transform: translateY(0);
+  }

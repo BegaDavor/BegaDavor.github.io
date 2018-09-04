@@ -1,61 +1,85 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Beganovic Davor</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-    <script src="main.js"></script>
-
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Beganovic Davor</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+        <script src="main.js"></script>
 </head>
 <body>
-    <div class="content">
-    <header>
-        <section id = "banner">
-                <h1 id = "name">Beganovic Davor</h1>
+
+        <header id="header" class="header">
+                <section id="banner">
+
+                        <h1><a href="#top">BEGANOVIC DAVOR</a> </h1>
+
+                </section>
+
+                <nav class="navigation">
+                        <ul>
+                                <li>
+                                        <a href="#about">ABOUT</a>
+                                        <a href="#projects">PROJECTS</a>
+                                        <a href="#contacts">CONTACTS</a>
+                                </li>
+                        </ul>
+                </nav>
+        </header>
         
-    </section>
-    </header>
-    <nav class="menu">
-      
-            <ul>
-                <li><a href = "index.html"><u>Home</u> </a></li>
-                <li><a href = "Projects.html">Projects</a></li>
-                <li><a href="Contacts.html">Contacts</a></li>
-            </ul>
-       
-        </nav>
-    <div class="page-body">
-    <section class="home-profile-picture">
-
-        <img src="images/profile.jpeg" alt="profile-picture" id = "profile-picture">
-
-    </section>
-
-    <div class="paragraphs">
-        <h2>About</h2>
-        <p>
-           Hello, I am Davor Beganovic and welcome to my portfolio.  I am thrilled you’ve come to visit my showcase of work.
-            On this page you can see my projects. Take a look and feel free to get in touch if you’d like to discuss potential opportunities to work together. 
-        </p>
-
-    </div>
+<div class="page-body">
+        <section id="about">
+                <img src="img/profile.jpeg" alt="photo" class="profile-photo">
+              <h2>ABOUT</h2> 
+                <p>
+                Hello, I am Davor Beganovic and welcome to my portfolio.  I am thrilled you’ve come to visit my showcase of work.
+                On this page you can see my projects. Take a look and feel free to get in touch if you’d like to discuss potential opportunities to work together. 
+                </p> 
+        </section>
+        <hr class="divide-section">
+        <section id="projects">
+                <h2>PROJECTS</h2>
+                <div class="dropdown">
+                                <h3>Java Projects</h3> 
+                                <ul class="listOfProjects">
+                                  <li><a href="https://github.com/BegaDavor/ATM">ATM</a></li>
+                                  <li><a href="https://github.com/BegaDavor/Biblioteka">Library</a></li>
+                                </ul>
+                              <br>
+                              <h3> Other links </h3>
+                                <ul class="listOfProjects">
+                                  <li><a href="https://github.com/BegaDavor/BILD-IT-Homeworks">BILD IT Homeworks</a></li>
+                                  <li><a href="https://github.com/BegaDavor/Exercises">My Exercises</a></li>
+                                </ul>
+                </div>
+        </section>
+        <hr class="divide-section">
+        <section id="contacts">
+                <h2>CONTACTS</h2>
+                <div class="mail">
+                                <h3><em>Contacts</em></h3>
+                                <br>
+                                <p>
+                                    <strong><em>E-mail:</em> </strong><address>beganovic.davor@gmail.com</address>
+                                    <hr class="divide">
+                                    <strong><em>Address:</em></strong> <Address>Donji Mosnik 24, 75000 Tuzla, Bosna i Hercegovina</Address>
+                                </p>
+                            </div>  
+        </section>
+        <hr class="divide-section">
 </div>
-    <section>
-    <footer class="footer">
-            <div class="copyright">
-                <ul class="icons">
-                    <li><a href="https://www.facebook.com/Davor.Bega" class="fa fa-facebook"></a></li>
-                    <li><a href="https://www.instagram.com/ddaazzeed/" class="fa fa-instagram"></a></li>
-                    <li><a href="https://github.com/BegaDavor" class="fa fa-github"></a></li>
+
+<footer>
+                <ul class="social-icons">
+                                <li><a href="https://www.facebook.com/Davor.Bega"><img src='img/Vecteezy_Social_Media_Icons/Social Media Icons/PNG/Circle Color/Facebook.png' /></a></li>
+                                <li><a href="https://www.instagram.com/ddaazzeed/"><img src='img/Vecteezy_Social_Media_Icons/Social Media Icons/PNG/Circle Color/Instagram.png' /></a></li>
+                                <li><a href="https://plus.google.com/u/0/104781667109715407169"><img src='img/Vecteezy_Social_Media_Icons/Social Media Icons/PNG/Circle Color/Google+.png' /></a></li>
+                                <li><a href="https://github.com/BegaDavor"><img src='img/Vecteezy_Social_Media_Icons/Social Media Icons/PNG/Circle Color/Github.png' /></a></li>
                 </ul>
-            </div>
-            <p class="CreatedBy">Created by Davor Beganovic.</p>
-    </footer>
-</section>
-</div>
+        <p>
+                Created by Davor Beganovic.
+        </p>
+</footer>
 </body>
 </html>
