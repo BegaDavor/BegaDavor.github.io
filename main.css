@@ -42,6 +42,16 @@ header h1 {
 header h1 a {
     text-decoration: none;
     color: orangered;
+    display: block;
+}
+
+header h1 a:hover {
+    color: rgb(255, 38, 0);  
+}
+
+.navigation a:hover {
+    color: rgb(255, 38, 0);
+    font-size: 18px;
 }
 header nav.navigation ul{
 
@@ -91,10 +101,6 @@ p {
     text-align: justify;
 }
 
-.dropdown {
-    padding: 3%;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
 .listOfProjects a {
     text-decoration: none;
     color: black;
@@ -123,64 +129,10 @@ hr.divide{
     border-radius: 50%;
     float: center;
 }
-
-.icons li a {
-
-    text-decoration: none;
-    color: aliceblue;
-     
- }
-
- .icons li {
-    list-style-type: none;
-    display: inline-block;
-    margin: 1%;
- }
-
- .fa {
-    padding: 25px;
-    width: 50px;
-    height: 50px;
-    border-radius: 100%;
-}
-
-.fa:hover {
-    opacity: 0.7;
-}
-
-.fa-facebook {
-    background: url(img/Facebook-icon-1.png);
-    background-size: cover;
-    background-color: white;
-}
-
-.fa-instagram {
-    background: url(img/instagram.png);
-    background-size: cover;
-    background-color: white;
-    
-}
-
-.fa-github {
-    background: url(img/github.svg);
-    background-size: cover;
-    background-color: white;
-    
-}
 img{
     width: 100%;
     height: auto;
 }
-
-.icon-bar {
-    position: fixed;
-    top: 60%;
-    left: 0;
-    -webkit-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
-    text-align: left;
-  }
   .social-icons {
     text-align: center;
     }  
@@ -198,6 +150,13 @@ img{
     height:50px;
     margin-right: 20px;
   }
+
+  .social-icons li img:hover{
+    width: 52px;
+    height:  52px;
+    opacity: 0.7;
+  }  
+  
   .header-unpin{
     /* display: none; */
     transform: translateY(-200px);
@@ -205,4 +164,8 @@ img{
   .header-pin{
     /* display: block; */
     transform: translateY(0);
+  }
+
+  #createdBy{
+     text-align: center;
   }
