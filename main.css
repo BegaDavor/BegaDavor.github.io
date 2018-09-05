@@ -9,6 +9,10 @@ h1, h2, h3 {
     color: rgb(189, 44, 0);
 }
 
+h3{
+    color: rgb(204, 75, 35);
+}
+
 header{
     background-color: rgb(255, 166, 0);
     margin: 0;
@@ -75,21 +79,21 @@ header nav.navigation a {
     background-color: darkkhaki;
     padding: 4%;
     text-align: center;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 #projects {
     position: relative;
     background-color: rgb(158, 154, 93);
     padding: 4%;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 #contacts {
     position: static;
     background-color: rgb(126, 124, 71);
     padding: 4%;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .page-body{
     margin: 4%;
@@ -97,7 +101,7 @@ header nav.navigation a {
 }
 
 p {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: justify;
 }
 
