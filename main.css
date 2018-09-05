@@ -105,9 +105,11 @@ p {
     text-align: justify;
 }
 
+
 .listOfProjects a {
     text-decoration: none;
     color: black;
+
 }
 
 .listOfProjects li :hover {
@@ -191,4 +193,30 @@ img{
 
 #myBtn:hover {
     background-color: #555; /* Add a dark-grey background on hover */
+}
+
+
+.back-end{
+    border: orangered solid 4px;
+    border-radius: 1%;
+    margin: 5%;
+    padding: 2%;
+    display: block;
+    text-align: left;
+    width: auto;
+    background: rgba(255, 68, 0, 0.39);
+}
+
+.front-end {
+    border: orangered solid 4px;
+    border-radius: 1%;
+    margin: 5%;
+    padding: 2%;
+    text-align: left;
+    display: block;
+    width: auto;
+    background: rgba(255, 68, 0, 0.39);
+}
+#what-i-do{
+    display: inline;
 }
