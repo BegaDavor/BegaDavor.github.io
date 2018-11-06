@@ -98,9 +98,9 @@ footer{
     border-bottom: none;
     }
   .social-icons li img {
-    width:30px;
-    height:30px;
-    margin-right: 10px;
+    width:25px;
+    height:25px;
+    margin: auto;
   }
 
   .social-icons li img:hover{
@@ -113,6 +113,32 @@ footer{
 
   #profileImg{
       border-radius: 50%;
-      border: #55504f solid;
+      border: #423f3e solid;
       padding: 1%;
   }
+  .btn-default{
+    margin-top: 20px;
+    background-color: #2c282693;
+    color: #fff;
+    border: #0e0d0d solid 3px;
+    border-radius: 28px;
+    padding: 16px 31px;
+   
+}
+
+.modal-header{
+    background-color: #0e0d0d;
+    color: white;
+}
+
+.close{
+    color: #fff;
+}
+
+.modal{
+    margin-top: 100px;
+}
+
+#message{
+    margin-bottom: 8px;
+}
